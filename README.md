@@ -1,5 +1,8 @@
 # JS - Logo Challenge
 
+## Run Application
+To run the application, navigate to application folder via the terminal and enter `python -m http.server`.
+
 ## Description:
 Given 5 color images, create a web app that allows users to move those 5 color images to the correct location in a specific image. 
 
@@ -14,6 +17,6 @@ the logo.
 
 # Documentaton
 ## Day 01 Deliverables:
-- [ ] Determine tech stack  
-- [ ] Set up environment
-- [ ] Create repo for assignment
+- [x] Determine tech stack  
+- [x] Set up environment
+- [x] Create repo for assignment
