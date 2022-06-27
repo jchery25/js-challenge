@@ -1,0 +1,19 @@
+.color_options{
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    padding: 10px;
+}
+
+.starting_image {
+    max-width: 100%;
+    width: auto\9; /* ie8 */
+    height: auto;
+    /* Set to the center */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
