@@ -20,14 +20,14 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 - [x] Set up environment.
 - [x] Create repo for assignment.
 - [x] Get the 6 colors to show on top, in the center, horizontally.
-- [x] Move each colors to a new location on the screen.
+- [x] Move/Drag each colors to a new location on the screen.
 
 ## Day 02 Deliverables:
 - [x] Create a reset bottom that will place colors back at original position.
 - [x] Add logo onto the center of the page, underneath the dots.
 
 ## Day 03 Deliverables:
-- [ ] Have circles connect to their appropriate positions. 
+- [ ] Create a 3x3 grid. 
 - [ ]  
 
 # Insights/Lesson Learned
