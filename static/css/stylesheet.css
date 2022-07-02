@@ -22,24 +22,32 @@ img{
 }
 
 .starting_image {
-    width: 30%;
-    height: 50%;
-    transform: translate(120%, 0%);
+    /* width: 30%; */
+    /* transform: translate(120%, 0%); */
+    z-index: 3;
+    opacity: 10%;
 }
 
 .grid_parent {
-    width: 30%;
-    transform: translate(105%, 0%);
+    /* width: 30%; */
+    transform: translate(5%, -80%);
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
+
 }
 
 .grid_parent > div {
     padding: 10px;
-    background-color: red;
     border-radius: 5px;
+    border: 1px solid red;
 }
+
+.container {
+    width: 30%;
+    transform: translate(120%, 0%);
+  }
+
 
 /* IDs */
