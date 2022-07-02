@@ -31,9 +31,15 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 - [x] Center grid.
 - [x] Add the feature to click and drag colored dot within the window boundary.
 - [x] Add the feature to drop the colored dot within a dedicated grid location. 
-- [ ] Overlay the logo on top of the grid while keeping the grid and dot feature. 
-- [ ] Set up the appropriate color location on the logo. 
+- [x] Overlay the logo on top of the grid while keeping the grid and dot feature. 
+- [x] Set up the appropriate color location on the logo.
+- [ ] Fix styling so that the logo can fit within the circle of the logo. 
+- [ ] Congratulate the user when they place all the logo in its correct location. 
+- [ ] Test application for usability. 
+- [ ] Resolve flex mode where if window is resized, the grid does not flex well compared to the flex of the logo. 
 
-# Insights/Lesson Learned
-- Thought it might be easier to start from scratch using html, css, and javascript. However, I quickly learned that I will most likely need to use a library like jQuery or React. Though I am more familiar with React, I wanted to challenge myself to re-learn jQuery for the specific task. 
-- jQuery features were quite neat and helpful. It made the task simple and allowed me to have clean code. I wonder if React would have resulted in cleaner code and would React be a different level of difficulty to get it to work. Overall, working with jQuery shown to be challenging and exciting. 
+# Insights/Lesson Learned/Question
+- (Insight) Thought it might be easier to start from scratch using html, css, and javascript. However, I quickly learned that I will most likely need to use a library like jQuery or React. Though I am more familiar with React, I wanted to challenge myself to re-learn jQuery for the specific task. 
+- (Insight) jQuery features were quite neat and helpful. It made the task simple and allowed me to have clean code. I wonder if React would have resulted in cleaner code and would React be a different level of difficulty to get it to work. Overall, working with jQuery shown to be challenging and exciting. 
+- (Question) I noticed that the beginner logo design is not the same as the finish logo design. Was that intentional?
+- (Lesson Learned) I needed to manage my time better. There were too many tings going on during the week which distracted me from completing the task. I need to set a dedicated time, during late hours, where my focus can be primarily on a task with a deadline. 
