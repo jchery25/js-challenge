@@ -1,17 +1,6 @@
-$( draggable_button );
 $( reset_challange );
-$( colors_enter_section );
-
-/**
- * draggable_button() => Allows users to drag buttons within the limits of their windows.
- */
-function draggable_button() {
-  $('#blue').draggable({ containment: "window" });
-  $('#red').draggable({ containment: "window" });
-  $('#green').draggable({ containment: "window" });
-  $('#black_01').draggable({ containment: "window" });
-  $('#black_02').draggable({ containment: "window" });
-}
+$( color_draggable );
+$( color_droppable );
 
 /**
  * reset_challange() => Allows users to reset the challange.
@@ -23,11 +12,24 @@ function reset_challange() {
 }
 
 /**
- * colors_enter_section() => Check to see if the color enters a specific grid.
+ * draggable_button() => Allows users to drag colored dot and move a dot, from the dot's's starting point, within the limits of the browser's window.
  */
-function colors_enter_section(){
-  $("#blue").mouseenter(function(){
-    $this = $(this)
-    
-  })
+ function color_draggable() {
+  $('.color').draggable({ containment: 'window', revert: true });
 }
+
+/**
+ * color_droppable() => Allows users to drop a colored dot to the dot's appropriate location in the logo. The dots that are dropped in the wrong location reverts back to the starting point. No two dots can occupy the same location.
+ * 
+ * Reference: https://www.javatpoint.com/jquery-ui-droppable
+ */
+function color_droppable(){
+  // Location one only accepts the blue dot. 
+  $('#one').droppable({ accept: '#blue',hoverClass: 'active', drop: function(evt, ui){
+    $(this).html(ui.draggable.remove().html());  
+    $(this).droppable('destroy');               
+  }}); 
+}
+
+
+
