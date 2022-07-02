@@ -27,8 +27,13 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 - [x] Add logo onto the center of the page, underneath the dots.
 
 ## Day 03 Deliverables:
-- [ ] Create a 3x3 grid. 
-- [ ]  
+- [x] Create a 3x3 grid. 
+- [x] Center grid.
+- [x] Add the feature to click and drag colored dot within the window boundary.
+- [x] Add the feature to drop the colored dot within a dedicated grid location. 
+- [ ] Overlay the logo on top of the grid while keeping the grid and dot feature. 
+- [ ] Set up the appropriate color location on the logo. 
 
 # Insights/Lesson Learned
-- Thought it might be easier to start from scratch using html, css, and javascript. However, I quickly learned that I will most likely need to use a library like jQuery or React. Though I am more familiar with React, I wanted to challenge myself to learn jQuery for the specific task. 
+- Thought it might be easier to start from scratch using html, css, and javascript. However, I quickly learned that I will most likely need to use a library like jQuery or React. Though I am more familiar with React, I wanted to challenge myself to re-learn jQuery for the specific task. 
+- jQuery features were quite neat and helpful. It made the task simple and allowed me to have clean code. I wonder if React would have resulted in cleaner code and would React be a different level of difficulty to get it to work. Overall, working with jQuery shown to be challenging and exciting. 
