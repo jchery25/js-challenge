@@ -35,19 +35,19 @@ function reset_challange() {
  */
 function color_droppable(){
   // Location ONE accepts the GREEN dots. 
-  grid_to_dot_generator('one', '#green')
+  grid_to_dot_generator('#one', '#green')
 
   // Location TWO only accepts the BLUE dot.
-  grid_to_dot_generator('two', '#blue')
+  grid_to_dot_generator('#two', '#blue')
 
   // Location THREE only accepts the RED dot. 
-  grid_to_dot_generator('three', '#red')
+  grid_to_dot_generator('#three', '#red')
 
   // Location FOUR accepts the BLACK dots.
-  grid_to_dot_generator('four', '#black_01, #black_02')
+  grid_to_dot_generator('#four', '#black_01, #black_02')
   
   // Location FIVE accepts the BLACK dots. 
-  grid_to_dot_generator('five', '#black_01, #black_02')
+  grid_to_dot_generator('#five', '#black_01, #black_02')
 }
 
 /**
@@ -56,11 +56,41 @@ function color_droppable(){
  * @param {string} accepted_dots the accepted dot's html id that can be applied to the specific grid. 
  */
 function grid_to_dot_generator(grid_number, accepted_dots){
-  $('#' + grid_number).droppable({ accept: accepted_dots, hoverClass: 'active', drop: function(evt, ui){
+  $(grid_number).droppable({ accept: accepted_dots, hoverClass: 'active', drop: function(evt, ui){
     $(this).html(ui.draggable.remove().html());  
-    $(this).droppable('destroy');   
+    $(this).droppable('destroy');  
+    center_colored_dots(grid_number)
+    if(grid_number == "#two"){
+      $(grid_number).css("transform", "translate(-11.5rem, -23.5rem)");
+    } 
     counter();             
   }}); 
+}
+
+/**
+ * Centers the colored dots once placed in their appropriate location.
+ * @param {string} grid_number the grid number that the dot is associated with. 
+ */
+function center_colored_dots(grid_number){
+  switch (grid_number) {
+    case "#one":
+      $(grid_number).css("transform", "translate(-18.5rem, -8rem)");
+      break;
+    case "#two":
+      $(grid_number).css("transform", "translate(-11.5rem, -23.5rem)");
+      break;
+    case "#three":
+      $(grid_number).css("transform", "translate(-2rem, -22.3rem)");
+      break;
+    case "#four":
+      $(grid_number).css("transform", "translate(-23.8rem, -15.7rem)");
+      break;
+    case "#five":
+      $(grid_number).css("transform", "translate(-4rem, -10.8rem)");
+      break;
+    default:
+      break;
+  }
 }
 
 
