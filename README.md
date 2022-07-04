@@ -8,11 +8,11 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 
 ## Main Todos:
 - [x] Must have a reset button to return the logo to its starting state at any time.
-- [ ] A user should be able to drag a dot from its starting position to the appropriate location in the logo.
-- [ ] Dots dropped in the wrong location should be rejected.
-- [ ] Two dots cannot occupy the same space.
-- [ ] The finished logo should include the dots in the appropriate location within the logo.
-- [ ] When the logo is properly assembled, congratulate the user.
+- [x] A user should be able to drag a dot from its starting position to the appropriate location in the logo.
+- [x] Dots dropped in the wrong location should be rejected.
+- [x] Two dots cannot occupy the same space.
+- [x] The finished logo should include the dots in the appropriate location within the logo.
+- [x] When the logo is properly assembled, congratulate the user.
 
 # Documentaton
 ## Day 01 Deliverables:
@@ -33,9 +33,11 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 - [x] Add the feature to drop the colored dot within a dedicated grid location. 
 - [x] Overlay the logo on top of the grid while keeping the grid and dot feature. 
 - [x] Set up the appropriate color location on the logo.
+
+## Day 04 Deliverables:
 - [ ] Fix styling so that the logo can fit within the circle of the logo. 
-- [ ] Congratulate the user when they place all the logo in its correct location. 
-- [ ] Test application for usability. 
+- [x] Congratulate the user when they place all the logo in its correct location. 
+- [x] Test application for usability. 
 - [ ] Resolve flex mode where if window is resized, the grid does not flex well compared to the flex of the logo. 
 
 # Insights/Lesson Learned/Question
@@ -43,3 +45,7 @@ Given 5 color images, create a web app that allows users to move those 5 color i
 - (Insight) jQuery features were quite neat and helpful. It made the task simple and allowed me to have clean code. I wonder if React would have resulted in cleaner code and would React be a different level of difficulty to get it to work. Overall, working with jQuery shown to be challenging and exciting. 
 - (Question) I noticed that the beginner logo design is not the same as the finish logo design. Was that intentional?
 - (Lesson Learned) I needed to manage my time better. There were too many tings going on during the week which distracted me from completing the task. I need to set a dedicated time, during late hours, where my focus can be primarily on a task with a deadline. 
+
+# References:
+1. https://www.google.com/search?q=create+a+3x3+grid+html+css&oq=create+a+3x3+grid+html+css&aqs=chrome..69i57j33i160l2.9353j0j4&sourceid=chrome&ie=UTF-8#kpvalbx=_lYW-Yt2sOeCpptQPoP--kAg16 
+2. https://www.javatpoint.com/jquery-ui-droppable
