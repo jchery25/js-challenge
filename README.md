@@ -54,10 +54,6 @@ After playing with grids further, I thought about applying precision and the 3x3
 
 As a result, I was able to align the grids to a specific dot location. Since the main functionality were completed, I needed to clean up the code and the user interface and experience. I abstracted some areas of the code and applied more css to align the result close to the final image. 
 
-Here is the result of the product:
-
-![VIDEO HERE](https://imgur.com/a/IsKj6Sz)
-
 # Insights/Lesson Learned/Question
 - (Insight) Thought it might be easier to start from scratch using html, css, and javascript. However, I quickly learned that I will most likely need to use a library like jQuery or React. Though I am more familiar with React, I wanted to challenge myself to re-learn jQuery for the specific task. 
 - (Insight) jQuery features were quite neat and helpful. It made the task simple and allowed me to have clean code. I wonder if React would have resulted in cleaner code and would React be a different level of difficulty to get it to work. Overall, working with jQuery shown to be challenging and exciting. 
